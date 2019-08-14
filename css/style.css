@@ -1,0 +1,452 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+.image_text {
+  color: #ffffff;
+  font-family: "Source Sans Pro";
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 12px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+
+.active {
+  border-radius: 17px;
+  border: 1px solid #ffffff;
+}
+
+header {
+  padding: 50px 0 70px 0;
+  background: url(../image/image-header.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 120%;
+  width: 100%;
+}
+
+nav ol {
+  list-style-type: none;
+  display: block;
+}
+
+nav ol li a {
+  padding: 5px 22.5px;
+  width: auto;
+  text-decoration: none;
+  color: white;
+  font-family: "Open Sans";
+}
+
+nav ol li a:hover {
+  color: white;
+  height: 35px;
+  text-decoration: none;
+}
+
+img {
+  cursor: pointer;
+}
+
+header .header_content {
+  margin: 0 auto;
+  padding-top: 220px;
+}
+
+header .header_content h1 {
+  color: #ffffff;
+  font-family: "Source Sans Pro";
+  font-size: 35px;
+  font-weight: 300;
+  line-height: 70px;
+  text-transform: uppercase;
+  letter-spacing: 7px;
+}
+
+header .header_content p {
+  color: #ffffff;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.8px;
+}
+
+header a {
+  margin: 0 auto;
+}
+
+header a:hover {
+  text-decoration: none;
+}
+
+header a i {
+  display: block;
+  font-size: 40px;
+  font-weight: 100;
+  color: white;
+  margin: 0 auto;
+  margin-top: 150px;
+  background-color: #19bd9a;
+  border-radius: 50%;
+  width: 36px;
+  height: 50px;
+  cursor: pointer;
+}
+
+.main1 {
+  padding: 115px 0;
+  height: 100%;
+}
+
+.main1 h1 {
+  font-family: "Source Sans Pro";
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 12px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+
+.main1 p {
+  color: #81868e;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0.7px;
+}
+
+.main1 a {
+  border-radius: 19px;
+  border: 1px solid #333b46;
+  width: 140px;
+  height: 37px;
+  text-align: center;
+  color: #333b46;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 12px;
+  padding: 0 28px;
+}
+
+.main1 a:hover {
+  text-decoration: none;
+  color: #333b46;
+}
+
+.main2 {
+  background-color: #f3f3f3;
+  padding: 80px 0;
+}
+
+.main2 i {
+  font-size: 30px;
+  line-height: 74.37px;
+  /* Text style for "" */
+  letter-spacing: 0.05px;
+  color: #ffffff;
+  border-radius: 50%;
+  background-color: #81868e;
+  width: 53px;
+  height: 53px;
+  margin-left: 20px;
+}
+
+.main2 i:hover {
+  background-color: #19bd9a;
+  cursor: pointer;
+}
+
+.main2 p {
+  color: #81868e;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0.7px;
+}
+
+.main2 .main2_h1_2 {
+  color: #464646;
+  font-family: "Open Sans";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 125px;
+  letter-spacing: 0.8px;
+}
+
+.main2 .vero {
+  color: #19bd9a;
+  font-family: "Open Sans";
+  font-weight: 700;
+  letter-spacing: 0.8px;
+}
+
+#main2_h1 {
+  color: #333b46;
+  font-family: "Source Sans Pro";
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 12px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  margin-bottom: 30px;
+}
+
+.main3 {
+  padding: 80px 0;
+}
+
+.main3 .images {
+  background-color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  z-index: 9;
+}
+
+.main3 p {
+  color: #81868e;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0.7px;
+}
+
+.main3 h3 {
+  width: 747px;
+  height: 20px;
+  color: #ffffff;
+  font-family: "Open Sans";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 25px;
+}
+
+.main3 .image1 {
+  background: url(../image/whiskey.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 50%;
+  height: 319px;
+  position: relative;
+}
+
+.main3 .image1:before {
+  position: absolute;
+  top: 5%;
+  bottom: 5%;
+  left: 5%;
+  right: 5%;
+  content: '';
+  border-bottom: solid 2px;
+  border-top: solid 2px;
+  -webkit-transition: 0.2s;
+  -o-transition: 0.2s;
+  transition: 0.2s;
+  -webkit-transform: scaleX(0);
+  -ms-transform: scaleX(0);
+  transform: scaleX(0);
+}
+
+.main3 .image1:before:hover {
+  -webkit-transform: scaleX(1);
+  -ms-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+.main3 .image2 {
+  background: url(../image/whiskey2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 25%;
+  height: 319px;
+  position: relative;
+}
+
+.main3 .image2:hover {
+  opacity: 0.8;
+}
+
+.main3 .image2:before {
+  position: absolute;
+  top: 5%;
+  bottom: 5%;
+  left: 5%;
+  right: 5%;
+  content: '';
+  border-bottom: solid 3px rgba(224, 224, 224, 0.7);
+  border-top: solid 3px rgba(224, 224, 224, 0.7);
+  -webkit-transition: 0.2s;
+  -o-transition: 0.2s;
+  transition: 0.2s;
+  -webkit-transform: scaleX(0);
+  -ms-transform: scaleX(0);
+  transform: scaleX(0);
+}
+
+.main3 .image2:after {
+  position: absolute;
+  top: 5%;
+  bottom: 5%;
+  left: 5%;
+  right: 5%;
+  content: '';
+  border-right: solid 3px rgba(224, 224, 224, 0.7);
+  border-left: solid 3px rgba(224, 224, 224, 0.7);
+  -webkit-transition: 0.2s;
+  -o-transition: 0.2s;
+  transition: 0.2s;
+  -webkit-transform: scaleY(0);
+  -ms-transform: scaleY(0);
+  transform: scaleY(0);
+}
+
+.main3 .image2:hover:after {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+.main3 .image2:hover:before {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+.main3 i.fa-plus-circle {
+  display: none;
+  font-size: 30px;
+  color: white;
+}
+
+.main3:hover {
+  display: block;
+}
+
+.main3 .image3 {
+  background: url(../image/whiskey3.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 25%;
+  height: 319px;
+  position: relative;
+}
+
+.main3 .image3:hover {
+  opacity: 0.8;
+}
+
+.main3 .image3:before {
+  position: absolute;
+  top: 5%;
+  bottom: 5%;
+  left: 5%;
+  right: 5%;
+  content: '';
+  border-bottom: solid 3px rgba(224, 224, 224, 0.7);
+  border-top: solid 3px rgba(224, 224, 224, 0.7);
+  -webkit-transition: 0.2s;
+  -o-transition: 0.2s;
+  transition: 0.2s;
+  -webkit-transform: scaleX(0);
+  -ms-transform: scaleX(0);
+  transform: scaleX(0);
+}
+
+.main3 .image3:after {
+  position: absolute;
+  top: 5%;
+  bottom: 5%;
+  left: 5%;
+  right: 5%;
+  content: '';
+  border-right: solid 3px rgba(224, 224, 224, 0.7);
+  border-left: solid 3px rgba(224, 224, 224, 0.7);
+  -webkit-transition: 0.2s;
+  -o-transition: 0.2s;
+  transition: 0.2s;
+  -webkit-transform: scaleY(0);
+  -ms-transform: scaleY(0);
+  transform: scaleY(0);
+}
+
+.main3 .image3:hover:after {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+.main3 .image3:hover:before {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+.main3 .bottomwhiskey_button {
+  position: absolute;
+  left: 27%;
+  top: 343vh;
+}
+
+.main3 a {
+  width: 140px;
+  height: 37px;
+  border-radius: 19px;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 12px;
+}
+
+.main3 a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.main4 h1 {
+  color: #333b46;
+  font-family: "Source Sans Pro";
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 12px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+
+.main4 p {
+  color: #81868e;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0.7px;
+}
+
+.main4 i {
+  color: #ffffff;
+  background-color: #81868e;
+  border-radius: 50%;
+  width: 53px;
+  height: 53px;
+  font-size: 25px;
+  line-height: 74.37px;
+  margin-bottom: 15px;
+}
+
+.main4 #container {
+  margin: 20px;
+  width: 120px;
+  height: 120px;
+  position: relative;
+}
